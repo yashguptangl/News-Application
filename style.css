@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.nav-btn{
+    color: white;
+    display: flex;
+    padding: 25px;
+}
+.nav-btn a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: large
+}
+.nav-btn a:hover{
+    background-color: red;
+    transition: all 1s ease 0.2s;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: large;
+    position: absolute;
+    top: 55px;
+    margin-left: -38px;
+}
+.list ul a {
+    text-decoration: none;
+    color: white;
+}
+.main img{
+    height: 150px;
+    width: 140px;
+    margin: 12px;
+    border-radius: 5px;
+    
+}
+.main  {
+    display: flex;
+    background-color: rgb(242, 235, 226);
+    margin-top: 8px;
+}
+.main:hover{
+    background-color: rgb(199, 181, 158);
+    transition: all 1s ease-in-out 0.2s ;
+}
+.art1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+    justify-content: center;
+}
+.art1 h2 {
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+.art1 p {
+    font-size: 18px;
+}
+.art1 h2 a {
+    text-decoration: none;
+    color: black;
+}
+.txt{
+    text-align: center;
+    font-size: large;
+}
+
+.art1 a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: black;
+    border-radius: 5px;
+}
+.art1 a:hover{
+    background-color: white;
+    color: black;
+}
